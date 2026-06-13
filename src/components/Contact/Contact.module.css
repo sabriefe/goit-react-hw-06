@@ -1,0 +1,30 @@
+.items{
+    display : flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 16px;
+    max-width: 240px;
+    flex-basis: calc((100% - 3* 24)/4);
+}
+.items div {
+    display: flex;
+    flex-direction: column;
+    gap : 12px;
+}
+.items p {
+    display: flex;
+    gap : 12px;
+    margin: 0;
+}
+.items button {
+    padding: 4px 16px;
+    border : none;
+    color: white;
+    background-color: black;
+    cursor: pointer;;
+    border-radius: 4px;
+}
